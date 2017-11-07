@@ -7,7 +7,7 @@ public class MyNetwok : MonoBehaviour {
     public int listenport = 8899;
     public bool useNat = false;
     public string ip = "127.0.0.1";
-
+    public GameObject playerPrefab;
     
 
     void OnGUI()
@@ -36,5 +36,21 @@ public class MyNetwok : MonoBehaviour {
             GUILayout.Label("client connected");
         }
     }
-
+     void OnServerInitialized()//显示在SErVER
+    {
+        print("Completed initialize");
+        //Network.player;//访问到当前的客户端
+        int group = int.Parse(Network.player + "");//直接访问network.player会得到客户端的索引
+        Network.Instantiate(playerPrefab, new Vector3(0, 10, 0), Quaternion.identity,group);
+    }
+   void OnPlayerConnected(NetworkPlayer player)//显示在SErVER
+    {
+        print("A New player has been connected,Index number:" + player);
+    }
+    void OnConnectedToServer()//显示在CLIENT
+    {
+        print("Successful connected");
+        int group = int.Parse(Network.player + "");//直接访问network.player会得到客户端的索引
+        Network.Instantiate(playerPrefab, new Vector3(0, 10, 0), Quaternion.identity, group);
+    }
 }
