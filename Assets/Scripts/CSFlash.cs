@@ -14,9 +14,9 @@ public class CSFlash : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //if (Input.GetMouseButtonDown(0)) {
-            //Flash();
-        //}
+        if (Input.GetMouseButtonDown(0)) {
+            Flash();
+        }
             //FOR flash time
         if (GetComponent<Renderer>().enabled) {
             flashTimer += Time.deltaTime;

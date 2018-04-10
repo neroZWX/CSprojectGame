@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+using System.Collections;
+//using System.Collections.Generic;
 using UnityEngine;
 
 public class player : MonoBehaviour {
@@ -7,14 +7,16 @@ public class player : MonoBehaviour {
     public NetworkPlayer ownerPlayer;//who create this character
     public Mouselook xMouselook;
     public Mouselook yMouselook;
+    
    // private CharacterMotor motor;
+    //private CharacterMotor  motor;
     private PlayerAnimation playerAnimation;
     public CSbulletgenrator bulletgenrator;
-
+    
 	// Use this for initialization
 	void Start () {
         
-        //motor = this.GetComponent<CharacterMotor>();
+       // motor = this.GetComponent<CharacterMotor>();
         playerAnimation = this.GetComponent<PlayerAnimation>();
 	}
 	
@@ -28,7 +30,7 @@ public class player : MonoBehaviour {
         playerAnimation = this.GetComponent<PlayerAnimation>();
         camera.gameObject.SetActive(false);//only have one CAMERA;
         //cant move
-       // motor.cancontrol= false;
+       //motor.cancontrol= false;
         playerAnimation.enabled = false;//cant run animaiton
         //can shoot
         bulletgenrator.enabled = false;
