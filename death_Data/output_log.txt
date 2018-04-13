@@ -1,0 +1,394 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) R5 240 (ID=0x6611)
+    Vendor:   ATI
+    VRAM:     1005 MB
+    Driver:   21.19.144.32768
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\CSprojectGame\death_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.029 seconds
+Platform assembly: C:\CSprojectGame\death_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\CSprojectGame\death_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.136467 ms
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Boo.Lang.dll (this message is harmless)
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) R5 240 (ID=0x6611)
+    Vendor:   ATI
+    VRAM:     1005 MB
+    Driver:   21.19.144.32768
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\CSprojectGame\death_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\CSprojectGame\death_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\CSprojectGame\death_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.018 seconds
+Platform assembly: C:\CSprojectGame\death_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\CSprojectGame\death_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.132735 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at player.LoseControl () [0x00000] in <filename unknown>:0 
+  at player.SetOwnerPlayer (NetworkPlayer player) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at player.LoseControl () [0x00000] in <filename unknown>:0 
+  at player.SetOwnerPlayer (NetworkPlayer player) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Platform assembly: C:\CSprojectGame\death_Data\Managed\Boo.Lang.dll (this message is harmless)
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+RPC call failed because the function 'SysncHp' does not exist in the any script attached to'soldier(Clone)'
+ 
+(Filename:  Line: 167)
+
+Couldn't send RPC function 'PlayState' to server
+
+ 
+(Filename:  Line: 2508)
+
+Couldn't send RPC function 'PlayState' to server
+
+ 
+(Filename:  Line: 2508)
+
+The server has disconnected from the client. Most likely the server has shut down.
+ 
+(Filename:  Line: 776)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2a48 -> priority: 1 
+  Thread -> id: 474c -> priority: 1 
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2508)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1ab8 -> priority: 1 
+  Thread -> id: 2be4 -> priority: 1 
