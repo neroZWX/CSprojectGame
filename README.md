@@ -11,6 +11,6 @@
 
 ## project file
 
-1.[Project-Vdieo](https://github.com/neroZWX/Death-Adrenaline/blob/master/Project-Demo.mp4)
+[Project-Vdieo](https://github.com/neroZWX/Death-Adrenaline/blob/master/Project-Demo.mp4)
 
-2.[Project-Report](https://github.com/neroZWX/Death-Adrenaline/blob/master/projectdocu.pdf)
+[Project-Report](https://github.com/neroZWX/Death-Adrenaline/blob/master/projectdocu.pdf)
